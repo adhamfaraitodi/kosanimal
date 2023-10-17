@@ -66,7 +66,7 @@
                         <div class="collapse navbar-collapse sub-menu-bar" id="navbar">
                             <ul id="nav" class="navbar-nav ms-auto">
                                 <li class="nav-item">
-                                    <a class="page-scroll" href="#home">Home</a>
+                                    <a class="page-scroll" href="#">Home</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="page-scroll" href="#char">Character</a>
@@ -199,7 +199,7 @@
 <!-- End Features Area -->
 
 <!-- Start Service Area -->
-<section class="services section">
+<section class="services section" id="history">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 offset-lg-2 col-12">
