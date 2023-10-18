@@ -602,6 +602,8 @@
 <script src="{{asset('js/isotope.min.js')}}"></script>
 <script src="{{asset('js/main.js')}}"></script>
 <script type="text/javascript">
+    window.addEventListener("hashchange", () => window.history.pushState({}, "", '/'), {});
+
     //========= glightbox
     GLightbox({
         'href': 'https://www.youtube.com/watch?v=BqI0Q7e4kbk&t=1s',

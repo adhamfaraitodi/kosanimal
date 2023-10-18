@@ -20,10 +20,8 @@
     const select = (el, all = false) => {
         el = el.trim()
         if (all) {
-            history.replaceState('',document.title, window.location.origin+ window.location.pathname+ window.location.search);
             return [...document.querySelectorAll(el)]
         } else {
-            history.replaceState('',document.title, window.location.origin+ window.location.pathname+ window.location.search);
             return document.querySelector(el)
         }
     }
